@@ -1,2 +1,2 @@
 # Linux_CTF_Spring2026
-Where the challenges for the linux CTF will be located. (will come up with a better description thorugh the readME)
+LUG CTF Group - Linux fundamentals challenges, spring 2026 (will add more at some point)
