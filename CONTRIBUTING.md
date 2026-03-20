@@ -47,7 +47,7 @@ Inside the container, verify:
 4. /challenge/submit flame{correct} prints correct message
 5. No unintended shortcuts exist
 
-## Step 7 - Submit a PR
+## Step 7 - Submit a Push Request
 \'\'\'bash\
 git checkout -b challenge/challenge-name\
 git add challenges/topic/challenge-name\
