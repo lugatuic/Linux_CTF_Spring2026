@@ -7,11 +7,11 @@
 - Base image is build: './build.sh base'
 
 ## Step 1 - Clone and Build the Base
-'''bash
-git clone <repo-url>
-cd Linux_CTF_Spring2026
-./build.sh base
-'''
+\'\'\'bash \
+git clone <repo-url>\
+cd Linux_CTF_Spring2026\
+./build.sh base\
+\'\'\'
 
 ## Step 2 - Copy the Template
 \'\'\'bash
