@@ -1,8 +1,8 @@
 # who-goes-there
 
 **Category:** Users\
-**Module:** Untangling Users
-**Author:** AJ Arguello - GitHub: SeveralBandicoot
+**Module:** Untangling Users\
+**Author:** AJ Arguello (GitHub: SeveralBandicoot)
 
 ## Description
 Every user on a Linux system is listed somewhere. A suspicious account has been added to this system, find it and you will find your flag. 
