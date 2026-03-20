@@ -1,7 +1,7 @@
 # Contributing to a Challenge
 
 
-## Before contributing! Make sure: 
+## Prequisites: 
 - Docker Destkop is installed and running
 - Repository is cloned locally 
 - Base image is build: './build.sh base'
