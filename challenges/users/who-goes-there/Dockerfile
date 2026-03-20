@@ -18,6 +18,10 @@ RUN echo 'lugctf:x:1337:1337:flame{test}:/home/lugctf:bin/bash' >> /etc/passwd
 # Give a hint in their home directory
 RUN echo "The flag is hidden in plain sight. Every user on this system is listed somewhere." > /home/hacker/README.txt
 
+# -- Submission Script -------------------------
+COPY submit.sh /challenge/submit
+RUN chmod +x /challenge/submit
+
 # ── Entry Point ───────────────────────────────
 USER hacker
 WORKDIR /home/hacker
