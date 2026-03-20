@@ -14,9 +14,9 @@ cd Linux_CTF_Spring2026\
 \'\'\'
 
 ## Step 2 - Copy the Template
-\'\'\'bash
-cp -r challenge_template challenges/<topic>/<challenge-name>
-\'\'\'
+\'\'\'bash\
+cp -r challenge_template challenges/topic/challenge-name \
+\'\'\'\
 Topic folders: 'users', 'permissions', 'processes'
 
 ## Step 3 - Edit the Dockerfile
@@ -35,9 +35,9 @@ Topic folders: 'users', 'permissions', 'processes'
 - Write a description that sets up the scenario without giving away the solution- Write two hints that nudge without spoiling
 
 ## Step 6 - Build and Test
-\'\'\'bash
-./build.sh <challenge-name>
-docker run -it lug-ctf-<challenge-name>
+\'\'\'bash\
+./build.sh <challenge-name>\
+docker run -it lug-ctf-challenge-name\
 \'\'\'
 
 Inside the container, verify:
@@ -48,12 +48,12 @@ Inside the container, verify:
 5. No unintended shortcuts exist
 
 ## Step 7 - Submit a PR
-\'\'\'bash
-git checkout -b challenge/<challenge-name>
-git add challenges/<topic>/<challenge-name>
-git commit -m "Add <challenge-name> challenge"
-git push origin challenge/<challenge-name>
-\'\'\'
+\'\'\'bash\
+git checkout -b challenge/challenge-name\
+git add challenges/topic/challenge-name\
+git commit -m "Add challenge-name challenge"\
+git push origin challenge/challenge-name\
+\'\'\'\
 Then open a pull request and tag another lead for a cold solve before merging.
 
 ## Flag Format
