@@ -1,15 +1,15 @@
 # who-goes-there
 
-**Category:** Users
+**Category:** Users\
 **Module:** Untangling Users
 
 ## Description
 Every user on a Linux system is listed somewhere. A suspicious account has been added to this system, find it and you will find your flag. 
 
 ## How to Run
-\`\`\`bash
-docker build -t who-goes-there .
-docker run -it who-goes-there
+\`\`\`bash\
+docker build -t who-goes-there\
+docker run -it who-goes-there\
 \`\`\`
 
 ## Hints
