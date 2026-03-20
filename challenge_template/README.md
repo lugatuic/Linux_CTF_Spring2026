@@ -1,17 +1,17 @@
 # Challenge Name
 
-**Category:** Beginner / Intermediate / Hard
-**Points:** 100
-**Author:** @github-handle
-**Module:** Users / Permissions / Processes
+**Category:** Users / Permissions / Processes\
+**Points:** 100\
+**Author:** Name (@github-handle)\
+**Module:** Untangling Users / Percieving Permissions / Processes and Jobs
 
 ## Description
 One paragraph describing the scenario without giving away the solution.
 
 ## How to Run
-\`\`\`bash
-docker build -t challenge-name .
-docker run -it challenge-name
+\`\`\`bash\
+docker build -t challenge-name\
+docker run -it challenge-name\
 \`\`\`
 
 ## Hints
